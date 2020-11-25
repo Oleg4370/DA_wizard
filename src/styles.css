@@ -2,3 +2,35 @@
   font-family: sans-serif;
   text-align: center;
 }
+.wizard-container {
+  display: flex;
+  justify-content: space-around;
+}
+.wizard-container > div {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+.wizard-summary li {
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+.button-block {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+ul {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+textarea {
+  display: block;
+  width: 400px;
+  height: 200px;
+  max-width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
